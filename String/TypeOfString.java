@@ -8,7 +8,7 @@
  2. String str = new String("value");
  3. String str = new String(charArray[]);
  * If we have constructed a String object using first of above method, so object will be created in 'String Const pool' which is a area inside of heap, in this area duplicate are not allow, if you try to construct so it reference copy to another variable.
- * If we have constructed a String Object using second or third method of above so, it will construct in heap and you can create a duplicate.
+ * If we have constructed a String Object using second or third method of above so, it will construct in heap and it's copy wil be mmaintain in SCP by JVM,you can create a duplicate in heap memory.
  * isequalto (==) operator return true if refrence of both are same otherwise false.
 */
 
