@@ -10,7 +10,7 @@
  * If we have constructed a String object using first of above method, so object will be created in 'String Const pool' which is a area inside of heap, in this area duplicate are not allow, if you try to construct so it reference copy to another variable.
  * If we have constructed a String Object using second or third method of above so, it will construct in heap and you can create a duplicate.
  * isequalto (==) operator return true if refrence of both are same otherwise false.
- */
+*/
 
  // public class
 public class TypeOfString{
