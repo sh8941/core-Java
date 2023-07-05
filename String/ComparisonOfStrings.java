@@ -11,9 +11,9 @@ public class ComparisonOfStrings {
         String str4 = "Hello";
         // Comparing with the help of "==" operator
 
-        System.out.println(str1==str2); // return false because both of them are different reference
-        System.out.println(str1==str3); // return false because both of them same value but different reference
-        System.out.println(str1==str4); // return true because duplicate are not allow in SCP
+        System.out.println(str1 == str2); // return false because both of them are different reference
+        System.out.println(str1 == str3); // return false because both of them same value but different reference
+        System.out.println(str1 == str4); // return true because duplicate are not allow in SCP
 
         // Comparing with the help of String.equals method
 
